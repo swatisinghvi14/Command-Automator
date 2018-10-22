@@ -1,0 +1,5 @@
+#!/bin/bash
+
+launch google-chrome www.w3schools.com www.uigradients.com www.fontawesome.io www.getbootstrap.com
+launch gitkraken
+launch atom

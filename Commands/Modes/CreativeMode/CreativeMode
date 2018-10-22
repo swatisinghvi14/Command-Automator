@@ -1,0 +1,7 @@
+#!/bin/bash
+
+launch spotify
+launch gimp
+
+cd 
+change_background Desktop/Desktop-Backgrounds/Creative.jpg

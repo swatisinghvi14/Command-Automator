@@ -1,0 +1,92 @@
+#!/bin/bash
+
+echo Here is a List of All Your Commands : 
+echo
+echo
+echo
+echo Command - OfficeMode
+echo Peforms - 
+echo 		Open Mailspring
+echo		Open Whatsapp
+echo 		Open Slack
+echo		Open Google Drive
+echo		Open Google Docs
+echo		Open Google Calender
+echo		Change Desktop Background
+echo 		Mount sdb1 Drive
+echo
+echo
+echo Command - CasualMode
+echo Peforms -
+echo            Open Spotify
+echo            Open Whatsapp
+echo            Change Desktop Background
+echo
+echo
+echo Command - CreativeMode
+echo Peforms -
+echo            open Spotify
+echo		open GIMP
+echo            Change Desktop Background
+echo           
+echo
+echo Command - launch
+echo Syntax - launch [Application]
+echo Peforms - opens a new terminal and launches the application on that terminal
+echo         
+echo
+echo
+echo Command - change_background
+echo Syntax - change_background [file path]
+echo Peforms - changes the background to the specified file
+echo           
+echo
+echo
+echo Command - mountD
+echo Peforms - mounts sdb1 to the computer with an alias DATA
+echo           
+echo
+echo
+echo Command - PhotoEditing
+echo Peforms - 
+echo            Open GIMP
+echo            Mount D Drive
+echo            Open the media folder
+echo            launch Creative Mode
+echo            
+echo
+echo
+echo Command - FrontEndDev
+echo Peforms - 
+echo            Open W3Schools Documentation
+echo            Open UIGradients Resources
+echo            Open FontAwesome Resources 
+echo            Open Bootstrap Library
+echo            Open Gitkraken
+echo            Open Atom Text Editor
+echo           
+echo           
+echo
+echo Command - BackEndDev
+echo Peforms - 
+echo            Mount D Drive
+echo		Open MongoDB
+echo            Open Pycharm Professional
+echo            
+echo
+echo
+echo Command - Mig
+echo Peforms -  Assess required Django migrations
+echo            Perfoem required Django migrations
+echo 		Run Django Testing Server locally
+echo           
+echo
+echo Command - NetSec
+echo Peforms - 
+echo            Open 3 Terminals
+echo            Open Over The Wire Wargames
+echo            Open Google Keep
+echo            
+echo
+
+

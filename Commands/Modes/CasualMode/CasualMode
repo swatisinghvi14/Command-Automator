@@ -1,0 +1,6 @@
+#!/bin/bash
+
+launch spotify
+launch whatsdesk
+cd
+change_background Desktop/Desktop-Backgrounds/Casual.jpg

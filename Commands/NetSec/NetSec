@@ -1,0 +1,6 @@
+#!/bin/bash
+
+gnome-terminal
+gnome-terminal
+gnome-terminal
+launch google-chrome www.overthewire.org www.google.co.in/keep/

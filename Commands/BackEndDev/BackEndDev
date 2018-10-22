@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mountD
+launch mongodb-compass
+launch pycharm-professional
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mountD
+launch nautilus /media/sameeran/DATA/Media/Photographs
+CreativeMode

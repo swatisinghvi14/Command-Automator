@@ -25,6 +25,27 @@ echo "We will now test the command"
 ./$name.sh
 fi
 done
+echo Please fill in the following details about the command
+echo Does the command have a specific syntax ?
+read ans
+if [ $ans = "Yes" ]
+then
+echo Please enter the syntax
+read syntax
+fi
+echo Please enter what the function performs
+read performs
+cd /usr/bin
+echo "echo Command - $name" >> MyCommands
+if [ $ans = "Yes" ]
+then
+echo "echo Syntax - $syntax" >> MyCommands
+fi
+echo "echo Performs - " >> MyCommands
+echo "echo $performs" >> MyCommands 
+
+cd 
+cd Desktop
 mv $name.sh $name
 sudo mv $name /usr/bin
 
