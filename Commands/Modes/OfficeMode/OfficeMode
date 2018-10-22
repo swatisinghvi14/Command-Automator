@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+launch mailspring
+launch whatsdesk
+launch google-chrome www.google.com/drive/ www.google.co.in/docs/about/ www.calendar.google.com/calendar/r
+mountD
+

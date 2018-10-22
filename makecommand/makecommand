@@ -1,0 +1,31 @@
+#!/bin/bash
+
+cd Desktop
+echo Please Enter the Name of the Command
+read name
+nano $name.sh
+sudo chmod +x $name.sh
+sudo chown sameeran $name.sh
+echo "We will now test the command"
+./$name.sh
+check=0
+while [ $check = 0 ]
+do
+echo "Please type 'Yes' if it worked as expected"
+read status
+if [ $status = "Yes" ]
+then
+check=1
+elif [ $status = "No" ]
+then
+check=0
+nano $name.sh
+sudo chmod +x $name.sh
+echo "We will now test the command"
+./$name.sh
+fi
+done
+mv $name.sh $name
+sudo mv $name /usr/bin
+
+
